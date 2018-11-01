@@ -1,0 +1,27 @@
+{
+  "name": "emp-mgmnt",
+  "version": "1.0.0",
+  "description": "node.js employee CRUD operations",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayank117/node-emp-mgmnt.git"
+  },
+  "author": "Mayank S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayank117/node-emp-mgmnt/issues"
+  },
+  "homepage": "https://github.com/mayank117/node-emp-mgmnt#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "request": "^2.88.0"
+  }
+}
